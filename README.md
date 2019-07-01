@@ -25,7 +25,7 @@ It's a static starter based on Gatsby and styled with Bootstrap - [live demo](ht
 2. **Create a Gatsby app.**
 
    ```sh
-   gatsby new gatsby-starter-scss https://github.com/app-generator/gatsby-starter-scss
+   gatsby new gatsby-starter-bootstrap https://github.com/app-generator/gatsby-starter-bootstrap
    ```
 
 3. **Start the site in `develop` mode.**
@@ -33,7 +33,7 @@ It's a static starter based on Gatsby and styled with Bootstrap - [live demo](ht
    Next, move into your new site’s directory and start it up:
 
    ```sh
-   cd gatsby-starter-scss/
+   cd gatsby-starter-bootstrap/
    gatsby develop
    ```
 
