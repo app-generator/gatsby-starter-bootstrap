@@ -28,7 +28,7 @@ const Layout = ({ children, pageInfo }) => (
       <>
         <Container fluid className="px-0 main">
           <Row noGutters className="justify-content-center">
-            <Col>
+            <Col className="text-center">
               <Header siteTitle={data.site.siteMetadata.title} />
             </Col>
           </Row>
@@ -48,7 +48,10 @@ const Layout = ({ children, pageInfo }) => (
                 <span>
                   © {new Date().getFullYear()}, Built with
                   {` `}
-                  <a href="https://www.gatsbyjs.org">Gatsby</a>
+                  <a href="https://www.gatsbyjs.org">GatsbyJS</a>, originally coded by 
+                  {` `}<a href="https://github.com/billyjacoby">Billy Jacoby</a>
+                  <br />
+                  {` `}Enhanced by <a href="https://twitter.com/Sm0keDev">Sm0ke</a>
                 </span>
               </footer>
             </Col>

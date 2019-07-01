@@ -11,8 +11,12 @@ const IndexPage = () => (
       <Row>
         <Col>
           <p>
-            This is a Gatsby Starter that I frequently use to get jump started
-            on quick website builds. It includes the following packages:
+            Blazing fast <a href="https://www.gatsbyjs.org/">GatsbyJS</a> <a href="https://getbootstrap.com/">Bootstrap</a> Starter. 
+            <br />
+            It includes the following packages:
+            {' '}<a href="https://react-bootstrap.github.io/">React Bootstrap</a>, 
+            {' '}<a href="https://react-icons.netlify.com">React Icons</a>, and 
+            {' '}<a href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/">Gatsby-Plugin-Sass</a>.
           </p>
         </Col>
       </Row>
@@ -21,31 +25,15 @@ const IndexPage = () => (
           <ListGroup>
             <ListGroup.Item
               action
-              href="https://getbootstrap.com"
-              target="_blank"
+              href="https://developers.google.com/speed/pagespeed/insights/?url=https://gatsby-starter-bootstrap.appseed.us"
             >
-              Bootstrap
+              Check Ligthouse Score
             </ListGroup.Item>
             <ListGroup.Item
               action
-              href="https://react-bootstrap.github.io/"
-              target="_blank"
+              href="https://github.com/app-generator/gatsby-starter-bootstrap"
             >
-              react-bootstrap
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://react-icons.netlify.com"
-              target="_blank"
-            >
-              react-icons
-            </ListGroup.Item>
-            <ListGroup.Item
-              action
-              href="https://www.gatsbyjs.org/packages/gatsby-plugin-sass/"
-              target="_blank"
-            >
-              gatsby-plugin-sass
+              Get Sources
             </ListGroup.Item>
           </ListGroup>
         </Col>
@@ -53,13 +41,14 @@ const IndexPage = () => (
       <Row>
         <Col>
           <p>
-            This starter also includes a navbar that sticks to the top of the
-            screen when the user scrolls past it, and a footer that stays at the
-            bottom of the screen.
+          <a href="https://www.gatsbyjs.org/">GatsbyJS</a> is a free and 
+          {' '} <a href="https://en.wikipedia.org/wiki/Open_source">open source</a> framework based on 
+          {' '} <a href="https://reactjs.org/">React</a>
+          {' '} that helps developers build blazing fast websites and apps.
           </p>
           <p>
-            For more documentation on these packages and how they work, please
-            refer to the pages linked in the list above.
+            Read more on <a href="https://www.gatsbyjs.org/docs/">GatsbyJS Docs</a> or play with {' '}
+            a <a href="https://www.gatsbyjs.org/starters/">GatsbyJS stater</a>.
           </p>
         </Col>
       </Row>
